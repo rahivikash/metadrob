@@ -163,7 +163,7 @@ const App = () => {
           </label>
         </div>
       </div>
-      <Canvas>
+      <Canvas style={{ height: 'calc(100vh - 80px)' }}>
         <directionalLight position={[0, 0, 1]} intensity={1.5} />
         <ambientLight intensity={0.5} />
         <Octahedron position={[-4, 1, 0]} color={"#fff"} size={2} visible={octahedronVisible} speed={octahedronSpeed} />
